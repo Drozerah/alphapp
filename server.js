@@ -14,6 +14,8 @@ require('./config/static-files/public')(app)
 // * APP Routes
 // home
 app.use('/', require('./routes/home'))
+// login
+app.use('/', require('./routes/auth/login'))
 // routes visualizer
 app.use('/routes', require('./routes/routes'))
 

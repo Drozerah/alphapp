@@ -1,8 +1,8 @@
-# αlphapp
+# αlphαpp
 
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
 
-> αlphapp is Node.js web application based on Express.js framework
+> αlphαpp is a Node.js web application based on Express.js framework
 
 Table of Contents
 -----------------
@@ -15,7 +15,7 @@ Getting Started
 
 ```bash
 # GET the latest version
-α git clone https://github.com/Drozerah/node-express-kick-start.git
+α git clone https://github.com/Drozerah/alphapp.git
 
 # Change diretory
 α cd myproject
@@ -33,7 +33,7 @@ Getting Started
 α npm run
 
 # Rapid install
-α git clone https://github.com/Drozerah/node-express-kick-start.git my-project-name && cd my-project-name && npm install && code . && exit
+α git clone https://github.com/Drozerah/alphapp.git my-project-name && cd my-project-name && npm install && code . && exit
 ```
 
 List of Packages

@@ -12,7 +12,7 @@ router.route('/')
       }
       return res.render('auth/login', {
         config,
-        title: 'Login view'
+        title: 'Log in to your account'
       })
     } catch (error) {
       console.log('[error][get][/login]') // * error log
@@ -22,6 +22,7 @@ router.route('/')
   // POST
   .post((req, res, next) => {
     try {
+      console.log('[post][/login]') // * error log
       return res.send('post login')
     } catch (error) {
       console.log('[error][post][/login]') // * error log

@@ -17,7 +17,7 @@ router.route('/')
       }
       return res.render('auth/register', {
         config,
-        title: 'Register view'
+        title: 'Create your account'
       })
     } catch (error) {
       console.log('[error][get][/register]') // * error log
@@ -26,6 +26,7 @@ router.route('/')
   })
   .post((req, res, next) => {
     try {
+      console.log('[post][/register]') // * error log
       return res.send('post register')
     } catch (error) {
       console.log('[error][post][/register]') // * error log

@@ -1,5 +1,8 @@
 const express = require('express')
 const router = express.Router()
+const json = require('../package.json')
+
+console.log(json.version) // !DEBUG
 
 router.get('/', (req, res, next) => {
   try {
@@ -9,7 +12,7 @@ router.get('/', (req, res, next) => {
     return res.render('home', {
       config,
       title: 'αlphαpp',
-      version: '0.0.1'
+      version: json.version
     })
   } catch (error) {
     console.log('[error][get][/]') // * error log

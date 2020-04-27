@@ -9,7 +9,7 @@ require('./config/view_engine/view_engine_init')(app)
 // Config view engine
 require('./config/view_engine/view_engine_config')(app)
 // Serve static files
-require('./config/static-files/public')(app)
+require('./config/static_files/public')(app)
 // Init body-parser
 require('./config/parsing/body_parser_init')(app, express)
 

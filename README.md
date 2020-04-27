@@ -54,6 +54,9 @@ List of Packages
 | [express-routes-visualizer](https://github.com/Drozerah/express-routes-visualizer) | Middleware and endpoint for viewing your app's route hierarchy.          |
 | [nodemon](https://www.npmjs.com/package/nodemon)                                   | Auto restarting the application when file changes                        |
 
+__History:__
+
+- [Changelog](CHANGELOG.md)
 
 __Author:__
 

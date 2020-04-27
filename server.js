@@ -11,6 +11,12 @@ require('./config/view_engine/view_engine_config')(app)
 // Serve static files
 require('./config/static-files/public')(app)
 
+// * Express Middlewares
+// parse application/json
+app.use(express.json())
+// parse application/x-www-form-urlencoded
+app.use(express.urlencoded({ extended: true }))
+
 // * APP Routes
 // home
 app.use('/', require('./routes/home'))

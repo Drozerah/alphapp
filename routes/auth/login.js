@@ -20,10 +20,13 @@ router.route('/')
     }
   })
   // POST
+  // TODO
+  // [ ] remove redirection on POST action
   .post((req, res, next) => {
+    console.log('[post][/login]') // * error log
     try {
-      console.log('[post][/login]') // * error log
-      return res.send('post login')
+      console.log(req.body) // !DEBUG
+      return res.redirect('./login?posted=true')
     } catch (error) {
       console.log('[error][post][/login]') // * error log
       next(error)

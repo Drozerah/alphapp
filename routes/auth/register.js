@@ -10,6 +10,7 @@ const router = express.Router()
  * Register Route Handle
  */
 router.route('/')
+  // GET
   .get((req, res, next) => {
     try {
       const config = {
@@ -24,10 +25,14 @@ router.route('/')
       next(error)
     }
   })
+  // POST
+  // TODO
+  // [ ] remove redirection on POST action
   .post((req, res, next) => {
+    console.log('[post][/register]') // * error log
     try {
-      console.log('[post][/register]') // * error log
-      return res.send('post register')
+      console.log(req.body) // !DEBUG
+      return res.redirect('./register?posted=true')
     } catch (error) {
       console.log('[error][post][/register]') // * error log
       next(error)

@@ -14,11 +14,11 @@
   "author": "Thomas G. aka Drozerah <drozerah@gmail.com> (https://github.com/Drozerah)",
   "license": "ISC",
   "dependencies": {
-    "consolidate": "^0.15.1",
     "cross-env": "^7.0.2",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "express-routes-visualizer": "https://github.com/Drozerah/express-routes-visualizer.git"
+    "express-routes-visualizer": "https://github.com/Drozerah/express-routes-visualizer.git",
+    "hbs": "^4.1.1"
   },
   "devDependencies": {
     "eslint": "^6.8.0",

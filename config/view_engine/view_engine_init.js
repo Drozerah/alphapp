@@ -1,8 +1,15 @@
-const engines = require('consolidate')
-
+const hbs = require('hbs')
+const path = require('path')
+/**
+* View Engine settings
+*/
 module.exports = (app) => {
-  // Set up template engine Handlebars
-  app.set('views', './views')
+  // specify view engine
   app.set('view engine', 'hbs')
-  app.engine('hbs', engines.handlebars)
+  // specify views path
+  app.set('views', path.join(process.cwd(), 'views'))
+  // specify entire application default layout
+  app.set('view options', { layout: 'layouts/default-layout' })
+  // specify/register path to partials
+  hbs.registerPartials(path.join(process.cwd(), '/views/partials'))
 }

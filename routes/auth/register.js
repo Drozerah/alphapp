@@ -11,15 +11,19 @@ const router = express.Router()
  */
 router.route('/')
   // GET
+  // Template engine
+  // [x] add layout
+  // [x] add view
+  // [x] add form css
   .get((req, res, next) => {
     try {
-      const config = {
-        css: req.app.locals.css // CSS file
-      }
-      return res.render('auth/register', {
-        config,
-        title: 'Create your account'
-      })
+      return res.render('auth/register_view', // view file
+        {
+          layout: 'layouts/auth_layout', // layout file
+          css: req.app.locals.authCss, // CSS file
+          formTitle: 'Create your account'
+        }
+      )
     } catch (error) {
       console.log('[error][get][/register]') // * error log
       next(error)

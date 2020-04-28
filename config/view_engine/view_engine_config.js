@@ -3,5 +3,8 @@
  */
 module.exports = (app) => {
   // Set up production CSS file
-  app.locals.css = process.env.MODE === 'production' ? 'styles.min.css' : 'styles.css'
+  const defaultCssPrefix = 'styles'
+  app.locals.css = process.env.MODE === 'production' ? `${defaultCssPrefix}.min.css` : `${defaultCssPrefix}.css`
+  const authCssPrefix = 'auth'
+  app.locals.authCss = process.env.MODE === 'production' ? `${authCssPrefix}.min.css` : `${authCssPrefix}.css`
 }

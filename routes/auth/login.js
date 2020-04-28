@@ -5,15 +5,20 @@ const router = express.Router()
  */
 router.route('/')
   // GET
+  // Template engine
+  // [x] add layout
+  // [x] add view
+  // [x] add form css
   .get((req, res, next) => {
     try {
-      const config = {
-        css: req.app.locals.css // CSS file
-      }
-      return res.render('auth/login', {
-        config,
-        title: 'Log in to your account'
-      })
+      return res.render('auth/login_view', // view file
+        {
+          layout: 'layouts/auth_layout', // layout file
+          css: req.app.locals.authCss, // CSS file
+          pageTitle: 'Login Page',
+          formTitle: 'Log in to your account'
+        }
+      )
     } catch (error) {
       console.log('[error][get][/login]') // * error log
       next(error)

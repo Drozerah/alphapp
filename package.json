@@ -1,6 +1,6 @@
 {
   "name": "alphapp",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "αlphapp is Node.js web applications based on Express.js framework",
   "private": true,
   "main": "server.js",

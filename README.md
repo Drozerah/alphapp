@@ -41,7 +41,6 @@ List of Packages
 
 | Package                                                                            | Description                                                              |
 | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| [consolidate](https://www.npmjs.com/package/consolidate)                           | Template engine consolidation library.                                   |
 | [cross-env](https://www.npmjs.com/package/cross-env)                               | Run scripts that set and use environment variables across platforms      |
 | [dotenv](https://www.npmjs.com/package/dotenv)                                     | Loads environment variables from .env file.                              |
 | [eslint](https://eslint.org/)                                                      | Linter JavaScript.                                                       |
@@ -52,7 +51,8 @@ List of Packages
 | [eslint-plugin-standard](https://www.npmjs.com/package/eslint-plugin-standard)     | ESlint Rules for the Standard Linter.                                    |
 | [express](https://expressjs.com/)                                                  | Node.js web framework.                                                   |
 | [express-routes-visualizer](https://github.com/Drozerah/express-routes-visualizer) | Middleware and endpoint for viewing your app's route hierarchy.          |
-| [nodemon](https://www.npmjs.com/package/nodemon)                                   | Auto restarting the application when file changes                        |
+| [hbs](https://www.npmjs.com/package/hbs)                                           | Express.js view engine for handlebars.js.                                |
+| [nodemon](https://www.npmjs.com/package/nodemon)                                   | Auto restarting the application when file changes.                       |
 
 __History:__
 

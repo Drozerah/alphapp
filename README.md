@@ -54,9 +54,6 @@ List of Packages
 | [hbs](https://www.npmjs.com/package/hbs)                                           | Express.js view engine for handlebars.js.                                |
 | [nodemon](https://www.npmjs.com/package/nodemon)                                   | Auto restarting the application when file changes.                       |
 
-__History:__
-
-- [Changelog](CHANGELOG.md)
 
 __Author:__
 
@@ -65,3 +62,7 @@ __Author:__
 __License:__
 
 - [ISC](licence)
+
+__History:__
+
+- [Changelog](CHANGELOG.md)

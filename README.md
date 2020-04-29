@@ -42,7 +42,7 @@ List of Packages
 | Package                                                                            | Description                                                              |
 | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | [cross-env](https://www.npmjs.com/package/cross-env)                               | Run scripts that set and use environment variables across platforms      |
-| [cypress](https://www.cypress.io/)                                                 | Ttesting framework, assertion library                                    |
+| [cypress](https://www.cypress.io/)                                                 | Testing framework, assertion library                                    |
 | [dotenv](https://www.npmjs.com/package/dotenv)                                     | Loads environment variables from .env file.                              |
 | [eslint](https://eslint.org/)                                                      | Linter JavaScript.                                                       |
 | [eslint-config-standard](https://www.npmjs.com/package/eslint-config-standard)     | An ESLint Shareable Config for JavaScript Standard Style.                |

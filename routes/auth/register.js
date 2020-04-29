@@ -21,6 +21,7 @@ router.route('/')
         {
           layout: 'layouts/auth_layout', // layout file
           css: req.app.locals.authCss, // CSS file
+          pageTitle: 'Register Page',
           formTitle: 'Create your account'
         }
       )

@@ -2,7 +2,9 @@
 
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
 
-> αlphαpp is a Node.js web application based on Express.js framework
+> αlphαpp is a Node.js web application based on Express.js framework.
+
+> IMPORTANT: αlphαpp is a work in progress and subject to major changes until 1.0 release.
 
 Table of Contents
 -----------------
@@ -41,8 +43,9 @@ List of Packages
 
 | Package                                                                            | Description                                                              |
 | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| [cookie-parser](https://www.npmjs.com/package/cookie-parser)                       | Parse Cookie header                                                      |
 | [cross-env](https://www.npmjs.com/package/cross-env)                               | Run scripts that set and use environment variables across platforms      |
-| [cypress](https://www.cypress.io/)                                                 | Testing framework, assertion library                                    |
+| [cypress](https://www.cypress.io/)                                                 | Testing framework, assertion library                                     |
 | [dotenv](https://www.npmjs.com/package/dotenv)                                     | Loads environment variables from .env file.                              |
 | [eslint](https://eslint.org/)                                                      | Linter JavaScript.                                                       |
 | [eslint-config-standard](https://www.npmjs.com/package/eslint-config-standard)     | An ESLint Shareable Config for JavaScript Standard Style.                |
@@ -53,6 +56,7 @@ List of Packages
 | [express](https://expressjs.com/)                                                  | Node.js web framework.                                                   |
 | [express-routes-visualizer](https://github.com/Drozerah/express-routes-visualizer) | Middleware and endpoint for viewing your app's route hierarchy.          |
 | [hbs](https://www.npmjs.com/package/hbs)                                           | Express.js view engine for handlebars.js.                                |
+| [i18n-express](https://www.npmjs.com/package/i18n-express)                         | Express.js Internationalization middleware                               |
 | [nodemon](https://www.npmjs.com/package/nodemon)                                   | Auto restarting the application when file changes.                       |
 
 

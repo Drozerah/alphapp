@@ -1,9 +1,10 @@
 'use strict'
-require('dotenv').config()
 const express = require('express')
 const app = express()
 
 // * APP Configuration
+// Init express-session
+require('./config/express_session/express_session_init')(app)
 // Init view engine
 require('./config/view_engine/view_engine_init')(app)
 // Config view engine
@@ -12,6 +13,10 @@ require('./config/view_engine/view_engine_config')(app)
 require('./config/static_files/public')(app)
 // Init body-parser
 require('./config/parsing/body_parser_init')(app, express)
+// Init cookie-parser
+require('./config/parsing/cookie_parser_init')(app)
+// Init i18n-express
+require('./config/i18n/i18n_init')(app)
 
 // * APP Routes
 // home

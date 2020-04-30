@@ -1,4 +1,5 @@
 {
   "SITE_LANGUAGE": "language",
+  "CURRENT_LANGUAGE": "en",
   "WELCOME_MSG": "Hello!"
 }

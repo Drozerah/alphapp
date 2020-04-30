@@ -8,7 +8,10 @@
   <title>{{pageTitle}}</title>
 </head>
 <body>
-  <div>Debug:auth_layout.hbs</div>
+  <p>auth_layout.hbs</p>
+  {{> i18n/i18n_lang_menu_partial}}
+  <p>{{translation.WELCOME_MSG}}</p>
+  <script src="/js/auth.js"></script>
   {{{body}}}
 </body>
 </html>

@@ -55,6 +55,7 @@ List of Packages
 | [eslint-plugin-standard](https://www.npmjs.com/package/eslint-plugin-standard)     | ESlint Rules for the Standard Linter.                                    |
 | [express](https://expressjs.com/)                                                  | Node.js web framework.                                                   |
 | [express-routes-visualizer](https://github.com/Drozerah/express-routes-visualizer) | Middleware and endpoint for viewing your app's route hierarchy.          |
+| [express-session](https://www.npmjs.com/package/express-session)                   | Express.js session middleware.                                           |
 | [hbs](https://www.npmjs.com/package/hbs)                                           | Express.js view engine for handlebars.js.                                |
 | [i18n-express](https://www.npmjs.com/package/i18n-express)                         | Express.js Internationalization middleware                               |
 | [nodemon](https://www.npmjs.com/package/nodemon)                                   | Auto restarting the application when file changes.                       |
